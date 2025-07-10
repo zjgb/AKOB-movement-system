@@ -13,4 +13,6 @@ INSTALLATION GUIDE:
 
 2. Install MediaPipe plugin for Touchdesigner from here: https://github.com/torinmb/mediapipe-touchdesigner
 
-3. 
+3. Step 2 will download a folder called release. In that Folder, there is a TouchDesigner project file called MediaPipe TouchDesigner. Delete it and replace it with the MediaPipe TouchDesigner file in this repository.
+
+6. If there is a problem with importing libraries check this video: https://www.youtube.com/watch?v=jUouJcGDRPk&t=1s
