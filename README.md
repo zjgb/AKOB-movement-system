@@ -17,4 +17,12 @@ INSTALLATION GUIDE:
 
 6. If there is a problem with importing libraries, check this video: https://www.youtube.com/watch?v=jUouJcGDRPk&t=1s
 
-7. For a better view, you can open comp1 (overlaid video and particles) as a separate Window (make sure Viewer active is unchecked, right click on the frame and choose "Open as Separate Window"). 
+7. For a better view, you can open comp1 (overlaid video and particles) as a separate Window (make sure Viewer active is unchecked, right click on the frame and choose "Open as Separate Window").
+
+
+STILL WORKING ON NORMALISING THE VALUES:
+Since the human Laban Efforts are extracted in various ranges, we need to find an efficient way to map the values between 0 and 1 (input for Laban to Swarm mapping). The growth is not linear. Current method: 
+1. We stored the values of testing out the framework at various movements (including min and max of all parameters, trying to find a distribution)
+2. Plotting the values in a histogram, extracting 20 percentiles and their respective values on the plot (for example Human Time at 10th percentile is 0.07, at 50th percentile it is 0.4, at 90th percentile it is 1.3)
+3. Using the numpy interpolate function to infer the mapped values at a specific Human Effort value.
+4. Please reach out if you have tips on how to do this best 
