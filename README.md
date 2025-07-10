@@ -2,12 +2,12 @@
 
 We have constructed a system that captures human motion data in real-time, extracts Laban Efforts, and maps them onto a Swarm, as described [here] (https://github.com/zjgb/AKOBxSiouxThesis).
 
-SYSTEM OVERVIEW: 
+## SYSTEM OVERVIEW: 
 <img width="1182" alt="interactive-overview2" src="https://github.com/user-attachments/assets/55ac3d39-31de-4e6f-9135-13a59d8a68c3" />
 
 An interactive system was constructed. It requires a camera to capture a video stream with human motion (Fig. 5.A). In real-time, it recognises the body pose, and the Laban effort parameters are computationally extracted (Fig. 5.B) and stored (Fig. 5.C). At this point, the mapping framework is integrated into the system (Fig. 5.D), taking extracted Laban Efforts as input rather than 3 slider values. Finally, it overlays the particle render (Fig. 5.F) on top of the input video, creating an interactive Human-Swarm experience (Fig. 5.E).
 
-INSTALLATION GUIDE:
+## INSTALLATION GUIDE:
 
 1. Install Touchdesigner: You can download the free non-commercial version here: https://derivative.ca/product/touchdesigner-non-commercial/77
 
@@ -20,7 +20,7 @@ INSTALLATION GUIDE:
 7. For a better view, you can open comp1 (overlaid video and particles) as a separate Window (make sure Viewer active is unchecked, right click on the frame and choose "Open as Separate Window").
 
 
-STILL WORKING ON NORMALISING THE VALUES:
+### STILL WORKING ON NORMALISING THE VALUES:
 
 Since the human Laban Efforts are extracted in various ranges, we need to find an efficient way to map the values between 0 and 1 (input for Laban to Swarm mapping). The growth is not linear. Current method: 
 
