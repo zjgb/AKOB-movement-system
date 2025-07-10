@@ -27,4 +27,5 @@ Since the human Laban Efforts are extracted in various ranges, we need to find a
 1. We stored the raw Human Effort values from testing out the framework with various movements (including min and max of all parameters, trying to find a distribution)
 2. We visualised the distribution by plotting the values in a histogram and then extracted 20 percentiles and their respective values on the plot (for example Human Time at 10th percentile is 0.07, at 50th percentile it is 0.4, at 90th percentile it is 1.3)
 3. Using the numpy.interp() function, we infer the mapped values at a specific Human Effort value.
-4. Please reach out if you have tips on how to do this better 
+4. Due to normalisation problems, MediaPipe TouchDesigner.td works best for Time representation, and MediaPipe TouchDesigner.2.td works best for Weight representation
+5. Please reach out if you have tips on how to do this better 
