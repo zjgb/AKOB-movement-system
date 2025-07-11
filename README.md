@@ -1,6 +1,6 @@
 # Swarm mimicking human movement dynamics via Laban movement analysis in real time
 
-We have constructed a system that captures human motion data in real-time, extracts Laban Efforts, and maps them onto a Swarm, as described [here] (https://github.com/zjgb/AKOBxSiouxThesis).
+We have constructed a system that captures human motion data in real-time, extracts Laban Efforts, and maps them onto a Swarm, as described [here](https://github.com/zjgb/AKOBxSiouxThesis).
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/adb7115d-5c9d-4259-a60e-5d00e871b147" width="400" style="margin-right: 20px;" />
