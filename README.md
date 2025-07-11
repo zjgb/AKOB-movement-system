@@ -8,7 +8,6 @@ We have constructed a system that captures human motion data in real-time, extra
 </p>
 
 
-
 ## SYSTEM OVERVIEW: 
 <img width="1182" alt="interactive-overview2" src="https://github.com/user-attachments/assets/55ac3d39-31de-4e6f-9135-13a59d8a68c3" />
 
