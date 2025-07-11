@@ -2,9 +2,10 @@
 
 We have constructed a system that captures human motion data in real-time, extracts Laban Efforts, and maps them onto a Swarm, as described [here] (https://github.com/zjgb/AKOBxSiouxThesis).
 
-![weight](https://github.com/user-attachments/assets/adb7115d-5c9d-4259-a60e-5d00e871b147)
-
-![gif](https://github.com/user-attachments/assets/9a9c08fd-d99d-47ce-b2f6-9fa2706b614e)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/adb7115d-5c9d-4259-a60e-5d00e871b147" width="300" style="margin-right: 10px;" />
+  <img src="https://github.com/user-attachments/assets/9a9c08fd-d99d-47ce-b2f6-9fa2706b614e" width="300" />
+</p>
 
 
 
